@@ -1,0 +1,111 @@
+
+.collapse .nav-link:hover
+
+{
+    color:#0d6efd;
+}
+.hero
+{
+    background:rgb(27, 3, 94);
+}
+.slider img
+{
+    width:100%;
+    transform:scale(0.7,0.7);
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: all .5s;
+}
+.slider img:hover
+{
+    transform: scale(1.0,1.0);
+    overflow: hidden;
+    filter: grayscale(0);
+}
+.service 
+{
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.service:hover
+{
+    transform:translateY(-20px);
+}
+.portfolio-image img
+{
+    transition: all ease .5s;
+    margin: 10px;
+}
+.portfolio-image img:hover
+{
+    transform:scale(1.2,1.2);
+}
+.for-picture img
+{
+    width:100%;
+    height:150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.person-details hr
+{
+    margin: 5px;
+}
+.person-details i
+{
+    width:50px;
+    background:rgb(217, 214, 248);
+    padding:10px;
+    border-radius: 50%;
+    color:rgb(42, 27, 85);
+    cursor: pointer;
+}
+.person-details i:hover
+{
+    background:#0badec;
+    color:#fff;
+}
+.team-section
+{
+    transition:all ease .7s;
+}
+.team-section:hover
+{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.contact-map i
+{
+    width:50px;
+    height:50px;
+    text-align: center;
+    background:rgb(214, 235, 236);
+    border-radius: 50%;
+    color:rgb(42, 27, 85);
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all ease .5s;
+}
+.contact-map i:hover
+{
+    background:#02a2ff;
+    color:#fff;
+}
+.footer-icon i
+{
+    width:50px;
+    height:50px;
+    text-align: center;
+    background:rgb(214, 235, 236);
+    border-radius: 50%;
+    color:rgb(42, 27, 85);
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 5px;
+    transition: all ease .5s;
+}
+.footer-icon i:hover
+{
+    background:#02a2ff;
+    color:#fff;
+}
